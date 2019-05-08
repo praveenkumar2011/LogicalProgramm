@@ -2,8 +2,6 @@ int SecondLargetNumber(vector<int> vectdata)
 {
     int secondLargetData=0,MaxData =0;
     MaxData = secondLargetData =vectdata.at(0);
-    for(int i=0;i<vectdata.size();i++)
-    {
         for(int j=1;j<vectdata.size();j++)
         {
             if(MaxData <= vectdata.at(j))
@@ -17,7 +15,6 @@ int SecondLargetNumber(vector<int> vectdata)
                 secondLargetData =vectdata.at(j);
             }
         }
-    }
 return secondLargetData;
 }
 
